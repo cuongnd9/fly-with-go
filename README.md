@@ -8,7 +8,13 @@
   <img src='./images/joker.gif' height=250 />
 </p>
 
-### 🛴 basic
+### 🏷️ contents
+
+#### [🛴 basic](#basic)
+
+#### [🚀 advanced](#advanced)
+
+## 🛴 basic
 
 #### 🖨️ printing
 
@@ -61,7 +67,7 @@ func main() {
 }
 ```
 
-### 🚀 advanced
+## 🚀 advanced
 
 ### 📙 documents
 

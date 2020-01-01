@@ -4,6 +4,6 @@
 
 <p>
   <img src='./images/gopher.png' height=250 />
-  <img src='./images/cat1.gif' height=250 />
-  <img src='./images/cat2.gif' height=250 />
+  <img src='./images/cat.gif' height=250 />
+  <img src='./images/joker.gif' height=250 />
 </p>

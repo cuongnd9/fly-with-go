@@ -3,9 +3,10 @@
 🐹 go is the language I want to 🛶 conquer next.
 
 <p>
-  <img src='./images/gopher.png' height=250 />
-  <img src='./images/cat.gif' height=250 />
-  <img src='./images/joker.gif' height=250 />
+  <img src='./images/gopher.png' height=200 />
+  <img src='./images/cat.gif' height=200 />
+  <img src='./images/joker.gif' height=200 />
+  <img src='./images/deadpool.gif' height=200 />
 </p>
 
 ## 🏷️ contents
@@ -19,6 +20,8 @@
   - ##### [🔫 function](#function)
 
   - ##### [🌳 variable](#variable)
+
+  - ##### [🥚 basic types](#basic-types)
 
 - #### [📙 documents](#documents)
 
@@ -98,6 +101,41 @@ func main() {
   // constant
   const homeTown = "Tam Ky city, Quang Nam province"
 	fmt.Println(canFly, name, age, job, address, gender, homeTown)
+}
+```
+
+<h4 id="basic-types">🥚 basic types</h4>
+
+```
+bool
+
+string
+
+int  int8  int16  int32  int64
+uint uint8 uint16 uint32 uint64 uintptr
+
+byte // alias for uint8
+
+rune // alias for int32
+     // represents a Unicode code point
+
+float32 float64
+
+complex64 complex128
+```
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var (
+		name string = "Cuong Duy Nguyen"
+		age int = 21
+	)
+	fmt.Printf("type: %T, value: %v\n", name, name)
+	fmt.Printf("type: %T, value: %v\n", age, age)
 }
 ```
 

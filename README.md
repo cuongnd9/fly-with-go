@@ -8,9 +8,9 @@
   <img src='./images/joker.gif' height=250 />
 </p>
 
-### basic
+### 🛴 basic
 
-#### printing
+#### 🖨️ printing
 
 ```go
 package main
@@ -26,12 +26,49 @@ func main() {
 }
 ```
 
-### documents
+#### 🔫 function
 
-#### [golang.org](https://golang.org/)
+```go
+package main
 
-#### [A Tour of Go](https://tour.golang.org)
+import "fmt"
 
-#### [golang-for-nodejs-developers](https://github.com/miguelmota/golang-for-nodejs-developers)
+func add(a int, b int) int {
+  return a + b
+}
 
-#### [Golang Tutorial — from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)
+func subtract(a, b int) int {
+  return a - b
+}
+
+func swap(a, b int) (int, int) {
+  return b, a
+}
+
+// named return values
+func split(number int) (a, b int) {
+	a = number / 10
+	b = number % 10
+	return
+}
+
+func main() {
+  fmt.Println(add(6,9)) // 15
+  fmt.Println(subtract(17, 10)) // 7
+  a, b := swap(10, 17)
+  fmt.Println(a, b) // 17 10
+  fmt.Println(split(19)) // 1 9
+}
+```
+
+### 🚀 advanced
+
+### 📙 documents
+
+#### 🦊 [golang.org](https://golang.org/)
+
+#### 🦌 [A Tour of Go](https://tour.golang.org)
+
+#### 🐧 [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
+
+#### 🐠 [Golang Tutorial  from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)

@@ -18,7 +18,11 @@
 
   - ##### [🔫 function](#function)
 
+  - ##### [🌳 variable](#variable)
+
 - #### [📙 documents](#documents)
+
+- #### [🚧 license](#license)
 
 <h2 id="basic">🛴 basic</h2>
 
@@ -73,6 +77,12 @@ func main() {
 }
 ```
 
+<h4 id="variable">🌳 variable</h4>
+
+```go
+
+```
+
 <h2 id="advanced">🚀 advanced</h2>
 
 <h2 id="documents">📙 documents</h2>
@@ -84,3 +94,7 @@ func main() {
 #### 🐧 [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
 
 #### 🐠 [Golang Tutorial  from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)
+
+<h2>🚧 license</h2>
+
+MIT © [cuongw](https://github.com/cuongw)

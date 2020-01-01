@@ -23,6 +23,8 @@
 
   - ##### [🥚 basic types](#basic-types)
 
+  - ##### [🚂 type conversion](#type-conversion)
+
 - #### [📙 documents](#documents)
 
 - #### [🚧 license](#license)
@@ -136,6 +138,24 @@ func main() {
 	)
 	fmt.Printf("type: %T, value: %v\n", name, name)
 	fmt.Printf("type: %T, value: %v\n", age, age)
+}
+```
+
+<h4 id="type-conversion">🚂 type conversion</h4>
+
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var z uint = uint(math.Sqrt(64))
+	var i int = 7
+	var f float64 = float64(i)
+	fmt.Print(z, i, f)
 }
 ```
 

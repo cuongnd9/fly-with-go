@@ -10,13 +10,17 @@
 
 ## 🏷️ contents
 
-#### [🛴 basic](#basic)
+- #### [🛴 basic](#basic)
 
-#### [🚀 advanced](#advanced)
+- #### [🚀 advanced](#advanced)
 
-#### [📙 documents](#documents)
+  - ##### [🖨️ printing](#printing)
 
-<h2 id="basic">🛴 basic</h2> 
+  - ##### [🔫 function](#function)
+
+- #### [📙 documents](#documents)
+
+<h2 id="basic">🛴 basic</h2>
 
 <h4 id="printing">🖨️ printing</h4>
 
@@ -69,7 +73,7 @@ func main() {
 }
 ```
 
-<h2 id="advanced">🚀 advanced</h2> 
+<h2 id="advanced">🚀 advanced</h2>
 
 <h2 id="documents">📙 documents</h2>
 

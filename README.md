@@ -1,6 +1,6 @@
 # fly-with-go
 
-🐹 go is the language I want to conquer next.
+🐹 go is the language I want to 🛶 conquer next.
 
 <p>
   <img src='./images/gopher.png' height=250 />
@@ -80,7 +80,25 @@ func main() {
 <h4 id="variable">🌳 variable</h4>
 
 ```go
+package main
 
+import "fmt"
+
+// global variables
+var canFly bool
+var age int = 21
+
+func main() {
+  // explict
+  var name string = "Cuong Duy Tran Nguyen"
+  // inferred
+  var job, address = "Software Engineer", "Ho Chi Minh city"
+  // shorthand
+  gender := "male"
+  // constant
+  const homeTown = "Tam Ky city, Quang Nam province"
+	fmt.Println(canFly, name, age, job, address, gender, homeTown)
+}
 ```
 
 <h2 id="advanced">🚀 advanced</h2>
@@ -94,6 +112,8 @@ func main() {
 #### 🐧 [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
 
 #### 🐠 [Golang Tutorial  from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)
+
+#### 🐳 [Go Cheat Sheet](https://github.com/a8m/golang-cheat-sheet)
 
 <h2>🚧 license</h2>
 

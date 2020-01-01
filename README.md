@@ -8,15 +8,17 @@
   <img src='./images/joker.gif' height=250 />
 </p>
 
-### 🏷️ contents
+## 🏷️ contents
 
 #### [🛴 basic](#basic)
 
 #### [🚀 advanced](#advanced)
 
-## 🛴 basic
+#### [📙 documents](#documents)
 
-#### 🖨️ printing
+<h2 id="basic">🛴 basic</h2> 
+
+<h4 id="printing">🖨️ printing</h4>
 
 ```go
 package main
@@ -32,7 +34,7 @@ func main() {
 }
 ```
 
-#### 🔫 function
+<h4 id="function">🔫 function</h4>
 
 ```go
 package main
@@ -67,9 +69,9 @@ func main() {
 }
 ```
 
-## 🚀 advanced
+<h2 id="advanced">🚀 advanced</h2> 
 
-### 📙 documents
+<h2 id="documents">📙 documents</h2>
 
 #### 🦊 [golang.org](https://golang.org/)
 

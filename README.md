@@ -281,13 +281,14 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("counting")
+	fmt.Print("counting ")
 
 	for i := 0; i < 10; i++ {
-		defer fmt.Println(i)
+		defer fmt.Printf("%d ", i)
 	}
 
-	fmt.Println("done")
+  fmt.Print("done ")
+  // counting done 9 8 7 6 5 4 3 2 1 0 
 }
 ```
 

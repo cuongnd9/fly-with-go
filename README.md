@@ -9,6 +9,10 @@
   <img src='./images/deadpool.gif' height=200 />
 </p>
 
+> **🦄 why Go?**
+
+> I have been using Node for a long time. Node is best but not perfect. Go will be a good complement to Node's weaknesses. You can read [this article](https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65) to understand why I choose to Go.
+
 <h2 id="home">🏷️ contents</h2>
 
 - #### [🛴 basic](#basic)

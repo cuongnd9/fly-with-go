@@ -11,6 +11,8 @@
 
 <h2 id="home">🏷️ contents</h2>
 
+- #### [🦄 why Go?](#why-go)
+
 - #### [🛴 basic](#basic)
 
   - ##### [🖨️ printing](#printing)
@@ -34,6 +36,10 @@
 - #### [📙 documents](#documents)
 
 - #### [🚧 license](#license)
+
+<h2 id="why-go">🦄 why Go?</h2>
+
+> I have been using Node for a long time. Node is best but not perfect. Go will be a good complement to Node's weaknesses.You can read [this article](https://medium.com/@kevalpatel2106/why-should-you-learn-go-f607681fad65) to understand why I chose Go.
 
 <h2 id="basic">🛴 basic</h2>
 

@@ -33,7 +33,7 @@
 
 <h2 id="basic">🛴 basic</h2>
 
-<h4 id="printing">🖨️ printing</h4>
+<h3 id="printing">🖨️ printing</h3>
 
 ```go
 package main
@@ -51,7 +51,7 @@ func main() {
 
 **[⬆️ back to top](#home)**
 
-<h4 id="function">🔫 function</h4>
+<h3 id="function">🔫 function</h3>
 
 ```go
 package main
@@ -88,7 +88,7 @@ func main() {
 
 **[⬆️ back to top](#home)**
 
-<h4 id="variable">🌳 variable</h4>
+<h3 id="variable">🌳 variable</h3>
 
 ```go
 package main
@@ -114,7 +114,7 @@ func main() {
 
 **[⬆️ back to top](#home)**
 
-<h4 id="basic-types">🥚 basic types</h4>
+<h3 id="basic-types">🥚 basic types</h3>
 
 ```
 bool
@@ -151,7 +151,7 @@ func main() {
 
 **[⬆️ back to top](#home)**
 
-<h4 id="type-conversion">🚂 type conversion</h4>
+<h3 id="type-conversion">🚂 type conversion</h3>
 
 ```go
 package main
@@ -171,7 +171,7 @@ func main() {
 
 **[⬆️ back to top](#home)**
 
-<h4 id="loop">🍭 loop</h4>
+<h3 id="loop">🍭 loop</h3>
 
 ```go
 

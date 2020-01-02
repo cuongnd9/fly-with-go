@@ -1,6 +1,6 @@
 # fly-with-go
 
-🐹 go is the language I want to 🛶 conquer next.
+🐹 go is the language I want to 🛶 conquer next 🌍.
 
 <p>
   <img src='./images/go.gif' height=200 />
@@ -174,7 +174,31 @@ func main() {
 <h3 id="loop">🍭 loop</h3>
 
 ```go
+package main
 
+import "fmt"
+
+func main() {
+	for i := 0; i < 7; i++ {
+		fmt.Println(i)
+  }
+  // for continued
+  max := 0
+	for ; max < 7777 ; {
+		max += 7
+	}
+  fmt.Println(max)
+  // while
+  sum := 0
+	for sum < 777 {
+		sum += 7
+	}
+  fmt.Println(sum)
+  // forever
+  for {
+		fmt.Println("go")
+	}
+}
 ```
 
 **[⬆️ back to top](#home)**
@@ -183,17 +207,15 @@ func main() {
 
 <h2 id="documents">📙 documents</h2>
 
-#### 🦊 [golang.org](https://golang.org/)
+- #### 🦊 [golang.org](https://golang.org/)
 
-#### 🦌 [A Tour of Go](https://tour.golang.org)
+- #### 🦌 [A Tour of Go](https://tour.golang.org)
 
-#### 🐧 [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
+- #### 🐧 [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers)
 
-#### 🐠 [Golang Tutorial  from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)
+- #### 🐠 [Golang Tutorial  from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)
 
-#### 🐳 [Go Cheat Sheet](https://github.com/a8m/golang-cheat-sheet)
-
-**[⬆️ back to top](#home)**
+- #### 🐳 [Go Cheat Sheet](https://github.com/a8m/golang-cheat-sheet)
 
 <h2>🚧 license</h2>
 

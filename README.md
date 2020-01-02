@@ -27,6 +27,8 @@
 
   - ##### [👻 conditional statement](#conditional-statement)
 
+  - ##### [🎣 defer](#defer)
+
 - #### [🚀 advanced](#advanced)
 
 - #### [📙 documents](#documents)
@@ -262,6 +264,29 @@ func main() {
   fmt.Print(isEven(7))
   fmt.Print(checkOS())
   fmt.Println(showGreeter())
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="defer">🎣 defer</h3>
+
+> A defer statement defers the execution of a function until the surrounding function returns.
+> Deferred function calls are pushed onto a stack. When a function returns, its deferred calls are executed in last-in-first-out order.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("counting")
+
+	for i := 0; i < 10; i++ {
+		defer fmt.Println(i)
+	}
+
+	fmt.Println("done")
 }
 ```
 

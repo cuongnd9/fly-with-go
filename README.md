@@ -21,6 +21,8 @@
 
   - ##### [🥚 basic types](#basic-types)
 
+  - ##### [🚂 type conversion](#type-conversion)
+
   - ##### [🍭 loop](#loop)
 
 - #### [🚀 advanced](#advanced)
@@ -149,11 +151,33 @@ func main() {
 
 **[⬆️ back to top](#home)**
 
+<h4 id="type-conversion">🚂 type conversion</h4>
+
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main() {
+	var z uint = uint(math.Sqrt(64))
+	var i int = 7
+	var f float64 = float64(i)
+	fmt.Print(z, i, f)
+}
+```
+
+**[⬆️ back to top](#home)**
+
 <h4 id="loop">🍭 loop</h4>
 
 ```go
 
 ```
+
+**[⬆️ back to top](#home)**
 
 <h2 id="advanced">🚀 advanced</h2>
 

@@ -9,11 +9,9 @@
   <img src='./images/deadpool.gif' height=200 />
 </p>
 
-## 🏷️ contents
+<h2 id="home">🏷️ contents</h2>
 
 - #### [🛴 basic](#basic)
-
-- #### [🚀 advanced](#advanced)
 
   - ##### [🖨️ printing](#printing)
 
@@ -22,6 +20,10 @@
   - ##### [🌳 variable](#variable)
 
   - ##### [🥚 basic types](#basic-types)
+
+  - ##### [🍭 loop](#loop)
+
+- #### [🚀 advanced](#advanced)
 
 - #### [📙 documents](#documents)
 
@@ -44,6 +46,8 @@ func main() {
   fmt.Println(math.Pi)
 }
 ```
+
+**[⬆️ back to top](#home)**
 
 <h4 id="function">🔫 function</h4>
 
@@ -80,6 +84,8 @@ func main() {
 }
 ```
 
+**[⬆️ back to top](#home)**
+
 <h4 id="variable">🌳 variable</h4>
 
 ```go
@@ -103,6 +109,8 @@ func main() {
 	fmt.Println(canFly, name, age, job, address, gender, homeTown)
 }
 ```
+
+**[⬆️ back to top](#home)**
 
 <h4 id="basic-types">🥚 basic types</h4>
 
@@ -139,6 +147,14 @@ func main() {
 }
 ```
 
+**[⬆️ back to top](#home)**
+
+<h4 id="loop">🍭 loop</h4>
+
+```go
+
+```
+
 <h2 id="advanced">🚀 advanced</h2>
 
 <h2 id="documents">📙 documents</h2>
@@ -152,6 +168,8 @@ func main() {
 #### 🐠 [Golang Tutorial  from zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/)
 
 #### 🐳 [Go Cheat Sheet](https://github.com/a8m/golang-cheat-sheet)
+
+**[⬆️ back to top](#home)**
 
 <h2>🚧 license</h2>
 

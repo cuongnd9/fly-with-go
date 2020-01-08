@@ -33,7 +33,7 @@
 
   - ##### [🎣 defer](#defer)
 
-	- ##### [🏹 pointer](#pointer)
+  - ##### [🏹 pointer](#pointer)
 
 - #### [🚀 advanced](#advanced)
 

@@ -35,6 +35,8 @@
 
   - ##### [🏹 pointer](#pointer)
 
+	- ##### [📦 struct](#struct)
+
 - #### [🚀 advanced](#advanced)
 
 - #### [📙 documents](#documents)
@@ -294,7 +296,7 @@ func main() {
 	}
 
   fmt.Print("done ")
-  // counting done 9 8 7 6 5 4 3 2 1 0 
+  // counting done 9 8 7 6 5 4 3 2 1 0
 }
 ```
 
@@ -317,6 +319,44 @@ func main() {
 	fmt.Println(b, *b)
 	a = b
 	fmt.Println(*a, *b)
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="struct">📦 struct</h3>
+
+```go
+package main
+
+import "fmt"
+
+type Point struct {
+	x int
+	y int
+}
+
+func main() {
+	// basic struct
+	p := Point{6, 9}
+	fmt.Println(p, p.x, p.y)
+	p.x = 1
+	p.y = 7
+	fmt.Println(p, p.x, p.y)
+
+	// struct with pointer
+	var a *Point = &p
+	fmt.Println(a, *a)
+	fmt.Println(a.x, (*a).x) // the same result
+
+	// init struct
+	var (
+		v1 = Point{1, 2}  // has type Point
+		v2 = Point{x: 1}  // Y:0 is implicit
+		v3 = Point{}      // X:0 and Y:0
+		k  = &Point{1, 2} // has type *Point
+	)
+	fmt.Println(v1, k, v2, v3)
 }
 ```
 

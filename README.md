@@ -35,7 +35,7 @@
 
   - ##### [🏹 pointer](#pointer)
 
-	- ##### [📦 struct](#struct)
+  - ##### [📦 struct](#struct)
 
 - #### [🚀 advanced](#advanced)
 

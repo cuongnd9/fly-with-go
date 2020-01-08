@@ -33,6 +33,8 @@
 
   - ##### [🎣 defer](#defer)
 
+	- ##### [🏹 pointer](#pointer)
+
 - #### [🚀 advanced](#advanced)
 
 - #### [📙 documents](#documents)
@@ -293,6 +295,28 @@ func main() {
 
   fmt.Print("done ")
   // counting done 9 8 7 6 5 4 3 2 1 0 
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="pointer">🏹 pointer</h3>
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	i, j := 10, 50
+	a := &i
+	fmt.Println(a, *a)
+	*a = 17
+	fmt.Println(a, *a, i)
+	var b *int = &j
+	fmt.Println(b, *b)
+	a = b
+	fmt.Println(*a, *b)
 }
 ```
 

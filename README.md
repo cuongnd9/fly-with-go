@@ -37,6 +37,8 @@
 
   - ##### [📦 struct](#struct)
 
+	- ##### [🚥 array](#array)
+
 - #### [🚀 advanced](#advanced)
 
 - #### [📙 documents](#documents)
@@ -357,6 +359,29 @@ func main() {
 		k  = &Point{1, 2} // has type *Point
 	)
 	fmt.Println(v1, k, v2, v3)
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="array">🚥 array</h3>
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var list [7]int
+	list[0] = 7
+	fmt.Println(list, list[1]) // [7 0 0 0 0 0 0] 0
+	
+	oddNumbers := [3]int{3, 5}
+	oddNumbers[2] = 7
+	fmt.Println(oddNumbers) // [3 5 7]
+	
+	var fullName [3]string = [3]string{"Cuong", "Duy", "Nguyen"}
+	fmt.Println(fullName) // [Cuong Duy Nguyen]
 }
 ```
 

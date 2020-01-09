@@ -39,6 +39,8 @@
 
 	- ##### [🚥 array](#array)
 
+	- ##### [🎢 slices](#slices)
+
 - #### [🚀 advanced](#advanced)
 
 - #### [📙 documents](#documents)
@@ -382,6 +384,37 @@ func main() {
 	
 	var fullName [3]string = [3]string{"Cuong", "Duy", "Nguyen"}
 	fmt.Println(fullName) // [Cuong Duy Nguyen]
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="slices">🎢 slices</h3>
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	// basic slice
+	s := []int{1, 2, 3, 5, 6, 7, 8 ,9, 10}
+	s = s[:]
+	fmt.Println(s) // [1 2 3 5 6 7 8 9 10]
+	s = s[:7]
+	fmt.Println(s) // [1 2 3 5 6 7 8]
+	s = s[2:]
+	fmt.Println(s) // [3 5 6 7 8]
+
+	// slices are like references to arrays
+	pets := []string{"cat", "dog", "bird", "fish"}
+	fmt.Println(pets) // [cat dog bird fish]
+	// select elements from array
+	list := pets[0 : 2]
+	fmt.Println(list) // [cat dog]
+	list[1] = "pig"
+	fmt.Println(list) // [cat pig]
+	fmt.Println(pets) // [cat pig bird fish]
 }
 ```
 

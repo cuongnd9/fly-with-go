@@ -18,27 +18,16 @@
 - #### [🛴 basic](#basic)
 
   - ##### [🖨️ printing](#printing)
-
   - ##### [🔫 function](#function)
-
   - ##### [🌳 variable](#variable)
-
   - ##### [🥚 basic types](#basic-types)
-
   - ##### [🚂 type conversion](#type-conversion)
-
   - ##### [🍭 loop](#loop)
-
   - ##### [👻 conditional statement](#conditional-statement)
-
   - ##### [🎣 defer](#defer)
-
   - ##### [🏹 pointer](#pointer)
-
   - ##### [📦 struct](#struct)
-
   - ##### [🚥 array](#array)
-
   - ##### [🎢 slices](#slices)
 
 - #### [🚀 advanced](#advanced)

@@ -37,9 +37,9 @@
 
   - ##### [📦 struct](#struct)
 
-	- ##### [🚥 array](#array)
+  - ##### [🚥 array](#array)
 
-	- ##### [🎢 slices](#slices)
+  - ##### [🎢 slices](#slices)
 
 - #### [🚀 advanced](#advanced)
 

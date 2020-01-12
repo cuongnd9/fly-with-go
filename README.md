@@ -29,7 +29,7 @@
   - ##### [🚥 array](#array)
   - ##### [🎢 slices](#slices)
   - ##### [🎯 maps](#maps)
-	- ##### [💩 function closures](#function-closures)
+  - ##### [💩 function closures](#function-closures)
 - #### [🚀 advanced](#advanced)
 - #### [📙 documents](#documents)
 - #### [🚧 license](#license)

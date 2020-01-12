@@ -29,6 +29,7 @@
   - ##### [🚥 array](#array)
   - ##### [🎢 slices](#slices)
   - ##### [🎯 maps](#maps)
+	- ##### [💩 function closures](#function-closures)
 - #### [🚀 advanced](#advanced)
 - #### [📙 documents](#documents)
 - #### [🚧 license](#license)
@@ -519,6 +520,27 @@ func main() {
 	// test that a key is present
 	elem, ok := list[4]
 	fmt.Println(elem, ok) // 0 false
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="function-closures">💩 function closures</h3>
+
+```go
+package main
+
+import "fmt"
+
+func add(x int) func(int) int {
+	return func(y int) int {
+		return x + y
+	}
+}
+
+func main() {
+	value := add(3)(4)
+	fmt.Println(value) // 7
 }
 ```
 

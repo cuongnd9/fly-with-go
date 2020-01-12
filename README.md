@@ -16,7 +16,6 @@
 <h2 id="home">🏷️ contents</h2>
 
 - #### [🛴 basic](#basic)
-
   - ##### [🖨️ printing](#printing)
   - ##### [🔫 function](#function)
   - ##### [🌳 variable](#variable)
@@ -27,14 +26,11 @@
   - ##### [🎣 defer](#defer)
   - ##### [🏹 pointer](#pointer)
   - ##### [📦 struct](#struct)
-	- ##### [🚥 array](#array)
-	- ##### [🎢 slices](#slices)
-	- ##### [🎯 maps](#maps)
-
+  - ##### [🚥 array](#array)
+  - ##### [🎢 slices](#slices)
+  - ##### [🎯 maps](#maps)
 - #### [🚀 advanced](#advanced)
-
 - #### [📙 documents](#documents)
-
 - #### [🚧 license](#license)
 
 <h2 id="basic">🛴 basic</h2>

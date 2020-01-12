@@ -31,6 +31,7 @@
   - ##### [🎯 maps](#maps)
   - ##### [💩 function closures](#function-closures)
 - #### [🚀 advanced](#advanced)
+	- ##### [💉 methods](#methods)
 - #### [📙 documents](#documents)
 - #### [🚧 license](#license)
 
@@ -547,6 +548,33 @@ func main() {
 **[⬆️ back to top](#home)**
 
 <h2 id="advanced">🚀 advanced</h2>
+
+<h3 id="methods">💉 methods</h3>
+
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+type User struct {
+	name string
+	dob int
+}
+
+func (u User) age() int {
+	return time.Now().Year() - u.dob
+}
+
+func main() {
+	user := User{"Cuong Duy Nguyen", 1998}
+	fmt.Println(user.age()) // 22
+}
+```
+
+**[⬆️ back to top](#home)**
 
 <h2 id="documents">📙 documents</h2>
 

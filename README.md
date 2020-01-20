@@ -32,6 +32,7 @@
   - ##### [💩 function closures](#function-closures)
 - #### [🚀 advanced](#advanced)
 	- ##### [💉 methods](#methods)
+	- ##### [⛩️ interfaces](#interfaces)
 - #### [📙 documents](#documents)
 - #### [🚧 license](#license)
 
@@ -580,6 +581,33 @@ func main() {
 	fmt.Println(user.name) // Cuong Duy Nguyen * not modify
 	user.changeName("Nguyễn Duy Cương")
 	fmt.Println(user.name) // Nguyễn Duy Cương * modify
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="interfaces">⛩️ interfaces</h3>
+
+```go
+package main
+
+import "fmt"
+
+type Animal struct {
+	name, color string
+}
+
+func (animal Animal) Miaow() {
+	fmt.Printf("meow moew %s", animal.name)
+}
+
+type Cat interface {
+	Miaow()
+}
+
+func main() {
+	var cat Cat = Animal{"Dog", "black"}
+	cat.Miaow()
 }
 ```
 

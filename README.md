@@ -33,6 +33,7 @@
 - #### [🚀 advanced](#advanced)
 	- ##### [💉 methods](#methods)
 	- ##### [⛩️ interfaces](#interfaces)
+	- ##### [🏭 goroutines](#goroutines)
 - #### [📙 documents](#documents)
 - #### [🚧 license](#license)
 
@@ -608,6 +609,33 @@ type Cat interface {
 func main() {
 	var cat Cat = Animal{"Dog", "black"}
 	cat.Miaow()
+}
+```
+
+**[⬆️ back to top](#home)**
+
+<h3 id="goroutines">🏭 goroutines</h3>
+
+```go
+package main
+
+import "fmt"
+
+func sum(c chan int, s []int) {
+	sum := 0
+	for _, v := range s {
+		sum += v
+	}
+	c <- sum
+}
+
+func main() {
+	s := []int{1, 5, 2, 8}
+	c := make(chan int, 5) // initialize number of channels.
+	go sum(c, s[:len(s) / 2])
+	go sum(c, s[len(s) / 2:])
+	x, y := <- c, <- c
+	fmt.Println(x, y, x + y) // 10 6 16
 }
 ```
 

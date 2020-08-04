@@ -45,7 +45,7 @@ import (
 )
 
 func main() {
-  fmt.Println("Hello %s", "🐹 Go")
+  fmt.Printf("Hello %s", "🐹 Go")
   fmt.Println(math.Pi)
 }
 ```
@@ -650,4 +650,4 @@ func main() {
 
 <h2>🚧 license</h2>
 
-MIT © [103cuong](https://github.com/103cuong)
+MIT © [Cuong Tran](https://github.com/103cuong)

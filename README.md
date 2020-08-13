@@ -1,4 +1,4 @@
-# fly-with-go
+![banner](./images/banner.png)
 
 🐹 go is the language I want to 🛶 conquer next 🌍.
 

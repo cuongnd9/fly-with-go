@@ -474,7 +474,7 @@ func main() {
 
 **[⬆️ back to top](#home)**
 
-<h3 id="map">🎯 maps</h3>
+<h3 id="maps">🎯 maps</h3>
 
 ```go
 package main

@@ -1,6 +1,6 @@
 ![banner](./images/banner.png)
 
-🐹 go is the language I want to 🛶 conquer next 🌍.
+🐹 go is the programming language I want to 🛶 conquer next 🌍.
 
 <img align="right" width="100" height="100" src="./images/go.gif">
 
